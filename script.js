@@ -6,11 +6,16 @@ function mostrarMensagem() {
 }
 
 function validarImagem(src) {
-    if (!src) {
-        console.error("Caminho da imagem não informado.");
+    try {
+        if (!src) {
+            console.error("Caminho da imagem não informado.");
+            return false;
+        }
+        return true;
+    } catch (erro) {
+        console.error("Erro ao validar imagem:", erro);
         return false;
     }
-    return true;
 }
 
 document.addEventListener("DOMContentLoaded", function() {
