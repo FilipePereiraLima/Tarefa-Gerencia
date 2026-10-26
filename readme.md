@@ -19,3 +19,7 @@ Abra o arquivo `index.html` em seu navegador.
 - HTML5
 - CSS3
 - JavaScript
+
+## Licença
+
+Este projeto está sob a licença MIT.
