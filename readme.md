@@ -13,3 +13,9 @@ Este é um repositório para a tarefa de Gerência e Configuração de Serviços
 ## Como usar
 
 Abra o arquivo `index.html` em seu navegador.
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
